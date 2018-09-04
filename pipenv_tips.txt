@@ -1,0 +1,10 @@
+1. pipenv -three # Create a virtual env, notice there is a "Pipfile" will appear
+2. pipenv install -d ipython # install ipython package
+3. pipenv run ipython
+4. session = boto3.Session(profile_name="pythonAutomation") # Let python know which config file we are using
+
+
+5. compare session(developed) VS client(raw) 
+6. %history, %save ipythonssision.py 1-10
+7. pipenv run ipython -i ipythonssision.py # Run the script and also enter ipython
+8. pipenv shell
