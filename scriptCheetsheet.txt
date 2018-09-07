@@ -32,3 +32,13 @@ def list_buckets():
 '''
 
 click library : http://click.pocoo.org/6/
+
+------------------
+pycodestyle > PEP 8
+pipenv install -d pycodestyle
+
+pydocstyle
+pipenv install -d pydocstyle
+
+pylint
+pipenv install -d pylint
